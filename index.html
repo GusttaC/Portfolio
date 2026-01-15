@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gustavo Fernandes - Desenvolvedor Full Stack | Engenheiro de Software | Portfólio Profissional">
+    <meta name="theme-color" content="#00ff22">
+    <title>Gustavo Fernandes | Engenheiro de Software</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Canvas para efeito de fundo avançado -->
+    <canvas id="background-canvas"></canvas>
+    
+    <!-- Overlay de grade -->
+    <div class="grid-overlay"></div>
+
+    <!-- Navegação Premium -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+                <div class="logo-box">
+                    <span class="logo-text">19</span>
+                    <div class="logo-glow"></div>
+                </div>
+                <span class="logo-label">GUSTAVO FERNANDES</span>
+            </div>
+            
+            <div class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link" data-target="home">HOME</a></li>
+                    <li><a href="#about" class="nav-link" data-target="about">SOBRE</a></li>
+                    <li><a href="#experience" class="nav-link" data-target="experience">EXPERIÊNCIA</a></li>
+                    <li><a href="#projects" class="nav-link" data-target="projects">PROJETOS</a></li>
+                    <li><a href="#skills" class="nav-link" data-target="skills">SKILLS</a></li>
+                    <li><a href="#contact" class="nav-link" data-target="contact">CONTATO</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section Imersiva -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">GUSTAVO</span>
+                    <span class="title-line">FERNANDES</span>
+                </h1>
+                <div class="hero-divider"></div>
+                <p class="hero-subtitle">ENGENHEIRO DE SOFTWARE</p>
+                <p class="hero-description">
+                    Transformando ideias em soluções robustas e inovadoras. 
+                    Construindo especialização em back-end, APIs e arquitetura de sistemas.
+                </p>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Projetos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Tecnologias</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">Dedicação</span>
+                </div>
+            </div>
+
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">INICIAR CONVERSA</a>
+                <a href="https://www.linkedin.com/in/gustavo-fernandes-dev/" target="_blank" class="btn btn-secondary">LINKEDIN</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="code-block">
+                <div class="code-header">
+                    <span class="code-dot red"></span>
+                    <span class="code-dot yellow"></span>
+                    <span class="code-dot green"></span>
+                </div>
+                <pre><code>&lt;developer&gt;
+  &lt;name&gt;Gustavo Fernandes&lt;/name&gt;
+  &lt;role&gt;Full Stack Engineer&lt;/role&gt;
+  &lt;status&gt;Available&lt;/status&gt;
+  &lt;passion&gt;Code + Innovation&lt;/passion&gt;
+&lt;/developer&gt;</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Avançada -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">QUEM SOU EU</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-main">
+                    <div class="about-card">
+                        <h3>Desenvolvedor</h3>
+                        <p>
+                            Sou <strong>Gustavo Fernandes</strong>, estudante de Engenharia de Software na Uniasselvi 
+                            e finalizando Análise e Desenvolvimento de Sistemas na Projeção. Meu foco é criar sistemas 
+                            que não apenas funcionam, mas que <strong>excedem expectativas</strong>.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <h3>Filosofia de Trabalho</h3>
+                        <p>
+                            Acredito que a base sólida em <strong>back-end</strong> é essencial para qualquer aplicação 
+                            de sucesso. Cada linha de código é escrita com foco em performance, segurança e boas práticas.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <h3>Sempre Evoluindo</h3>
+                        <p>
+                            Estou em constante aprimoramento através de projetos pessoais, estudos acadêmicos e 
+                            participação em hackathons. Busco oportunidades que me permitam crescer e contribuir 
+                            com soluções <strong>inovadoras</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-info">
+                    <div class="info-box">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <span class="info-label">Localização</span>
+                            <span class="info-value">Planaltina - GO, Brasil</span>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <span class="info-label">Email</span>
+                            <span class="info-value">gusttacostta@icloud.com</span>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <span class="info-label">Telefone</span>
+                            <span class="info-value">(61) 99510-4991</span>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon">💼</div>
+                        <div class="info-content">
+                            <span class="info-label">Status</span>
+                            <span class="info-value">Disponível para Estágio</span>
+                        </div>
+                    </div>
+
+                    <div class="info-box highlight">
+                        <div class="info-icon">🎓</div>
+                        <div class="info-content">
+                            <span class="info-label">Formação</span>
+                            <span class="info-value">Engenharia de Software (1º sem) - Conclusão 2029</span>
+                            <span class="info-value">ADS (5º sem) - Conclusão 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Experiência Premium -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">EXPERIÊNCIA</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Desenvolvimento de Sistemas</h3>
+                        <span class="timeline-date">Contínuo</span>
+                        <p>
+                            Desenvolvimento de projetos acadêmicos e pessoais utilizando <strong>Java</strong>, 
+                            <strong>MySQL</strong> e tecnologias web. Aplicação de padrões de design e arquitetura 
+                            bem definida.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Spring Boot</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Sistema de Gerenciamento para Barbearia</h3>
+                        <span class="timeline-date">Projeto Pessoal</span>
+                        <p>
+                            Sistema completo com autenticação, gerenciamento de filas, comandas e atendimento. 
+                            Desenvolvido com foco em <strong>usabilidade</strong> e <strong>organização</strong>.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Participação em Hackathons</h3>
+                        <span class="timeline-date">Múltiplos Eventos</span>
+                        <p>
+                            Participação ativa em eventos de inovação com foco em trabalho em equipe, 
+                            desenvolvimento rápido e soluções criativas para problemas reais.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Inovação</span>
+                            <span class="tech-tag">Colaboração</span>
+                            <span class="tech-tag">Criatividade</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos Showcase -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">PROJETOS DESTACADOS</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="projects-showcase">
+                <div class="project-card featured">
+                    <div class="project-overlay"></div>
+                    <div class="project-content">
+                        <div class="project-icon">💻</div>
+                        <h3>Portfólio Pessoal</h3>
+                        <p>
+                            Site desenvolvido com HTML, CSS e JavaScript puro. Apresenta partículas animadas, 
+                            design escuro, responsivo e experiência interativa.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://gusttac.github.io/Portifolio/" target="_blank" class="project-link">
+                            VER PROJETO →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-overlay"></div>
+                    <div class="project-content">
+                        <div class="project-icon">🏪</div>
+                        <h3>Sistema Barbearia</h3>
+                        <p>
+                            Aplicação de gerenciamento completo com login, filas, comandas e atendimento. 
+                            Interface intuitiva e funcionalidades.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">
+                           <!-- VER PROJETO → --> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-overlay"></div>
+                    <div class="project-content">
+                        <div class="project-icon">📚</div>
+                        <h3>Projetos Acadêmicos</h3>
+                        <p>
+                            Diversos projetos desenvolvidos durante a formação acadêmica com aplicação de 
+                            boas práticas, padrões de design e arquitetura de software.
+                        </p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                            <span>Spring Boot</span>
+                        </div>
+                        <a href="https://github.com/gusttac" target="_blank" class="project-link">
+                            VER NO GITHUB →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Skills Avançada -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">STACK TÉCNICO</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="skills-matrix">
+                <div class="skill-column">
+                    <h3 class="skill-column-title">LINGUAGENS</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-column">
+                    <h3 class="skill-column-title">FRONT-END</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Responsive Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 55%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-column">
+                    <h3 class="skill-column-title">BACK-END</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 20%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Spring Boot</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 20%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-column">
+                    <h3 class="skill-column-title">BANCO DE DADOS</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 50%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-column">
+                    <h3 class="skill-column-title">FERRAMENTAS</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">VS Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Figma</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 50%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-column">
+                    <h3 class="skill-column-title">SOFT SKILLS</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Raciocínio Lógico</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Aprendizado Rápido</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Trabalho em Equipe</span>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato Premium -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">VAMOS CONVERSAR?</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <p class="contact-description">
+                Estou sempre aberto a novas oportunidades, desafios e conversas sobre desenvolvimento. 
+                Conecte-se comigo através de qualquer canal abaixo!
+            </p>
+
+            <div class="contact-grid">
+                <a href="mailto:gusttacostta@icloud.com" class="contact-card">
+                    <div class="contact-icon">✉</div>
+                    <h3>Email</h3>
+                    <p>gusttacostta@icloud.com</p>
+                </a>
+
+                <a href="https://www.linkedin.com/in/gustavo-fernandes-dev/" target="_blank" class="contact-card">
+                    <div class="contact-icon">in</div>
+                    <h3>LinkedIn</h3>
+                    <p>gustavo-fernandes-dev</p>
+                </a>
+
+                <a href="https://github.com/gusttac" target="_blank" class="contact-card">
+                    <div class="contact-icon">⚙</div>
+                    <h3>GitHub</h3>
+                    <p>gusttac</p>
+                </a>
+
+                <a href="tel:+5561995104991" class="contact-card">
+                    <div class="contact-icon">☎</div>
+                    <h3>Telefone</h3>
+                    <p>(61) 99510-4991</p>
+                </a>
+            </div>
+
+            <div class="cta-section">
+                <h3>Pronto para trabalhar juntos?</h3>
+                <a href="mailto:gusttacostta@icloud.com" class="btn btn-primary btn-large">ENVIAR EMAIL</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Premium -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 <strong>Gustavo Fernandes</strong>. Desenvolvido em HTML5, CSS3 e JavaScript.</p>
+                <p class="footer-subtitle">Engenheiro de Software | Desenvolvedor Full Stack | Inovador</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
